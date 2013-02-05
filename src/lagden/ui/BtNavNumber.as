@@ -33,7 +33,7 @@ package lagden.ui
 			
 			TweenPlugin.activate([TintPlugin, ColorTransformPlugin]);
 			
-			var padding:uint = 10;
+			var padding:uint = 0;
 			
 			this._app = Application.getInstance();
 			this._dispatcher = dis;
@@ -42,9 +42,12 @@ package lagden.ui
 			
 			_txt = new TxtBox(obj['txt'],"left",_app['vars']['branco'],_app['vars']['fontSize'],_app['vars']['font']);
 			
+			var pos:Number = ( _txt.height  + padding ) / 2 ;
+			
 			_box = new CasaSprite();
-			_box.graphics.beginFill(0xFFFFFF);
-			_box.graphics.drawRect(0,0,_txt.width + padding, _txt.height  + padding);
+			_box.graphics.beginFill(0x000000);
+//			_box.graphics.drawRect(0,0,_txt.width + padding, _txt.height  + padding);
+			_box.graphics.drawCircle( pos, pos, pos );
 			_box.graphics.endFill();
 			_box.alpha = 0;
 			
@@ -93,7 +96,7 @@ package lagden.ui
 		private function fx(t:Number):void{
 			var boxAlpha:Number = (t == 1) ? 1 : 0;
 			_box.alpha = boxAlpha;
-			TweenMax.to(_txt,.2,{colorTransform:{tint:0x000000,tintAmount:t}});
+			TweenMax.to(_txt,.2,{colorTransform:{tint:0xffffff,tintAmount:t}});
 		}
 		
 	}

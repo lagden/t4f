@@ -1,22 +1,25 @@
 <raiz>
-    <!-- Shows Internacionais -->
-    <item><![CDATA[http://www.t4f.com.br/index.php?option=com_ninjarsssyndicator&feed_id=7&format=raw]]></item>
-    
-    <!-- Shows Nacionais -->
-    <item><![CDATA[http://www.t4f.com.br/index.php?option=com_ninjarsssyndicator&feed_id=8&format=raw]]></item> 
-    
-    <!-- Teatro -->
-    <item><![CDATA[http://www.t4f.com.br/index.php?option=com_ninjarsssyndicator&feed_id=2&format=raw]]></item>
-    
-    <!-- Familia -->
-    <item><![CDATA[http://www.t4f.com.br/index.php?option=com_ninjarsssyndicator&feed_id=4&format=raw]]></item>
-    
-    <!-- Performing Arts -->
-    <item><![CDATA[http://www.t4f.com.br/index.php?option=com_ninjarsssyndicator&feed_id=5&format=raw]]></item>
-        
-    <!-- Esporte -->
-    <item><![CDATA[http://www.t4f.com.br/index.php?option=com_ninjarsssyndicator&feed_id=3&format=raw]]></item>
-    
-    <!-- Exposicoes -->
-    <item><![CDATA[http://www.t4f.com.br/index.php?option=com_ninjarsssyndicator&feed_id=9&format=raw]]></item>
+	<!-- Shows Internacionais -->
+	<item><![CDATA[/index.php?option=com_ninjarsssyndicator&feed_id=7&format=raw]]></item>
+
+	<!-- Shows Nacionais -->
+	<item><![CDATA[/index.php?option=com_ninjarsssyndicator&feed_id=8&format=raw]]></item>
+
+	<!-- Broadway (antigo Teatro) -->
+	<item><![CDATA[/index.php?option=com_ninjarsssyndicator&feed_id=2&format=raw]]></item>
+
+	<!-- Familia -->
+	<item><![CDATA[/index.php?option=com_ninjarsssyndicator&feed_id=4&format=raw]]></item>
+
+	<!-- Cirque (antigo Performing Arts) -->
+	<item><![CDATA[/index.php?option=com_ninjarsssyndicator&feed_id=5&format=raw]]></item>
+
+	<!-- Esporte -->
+	<item><![CDATA[/index.php?option=com_ninjarsssyndicator&feed_id=3&format=raw]]></item>
+
+	<!-- Exposicoes -->
+	<item><![CDATA[/index.php?option=com_ninjarsssyndicator&feed_id=9&format=raw]]></item>
+
+	<!-- Dança -->
+	<item><![CDATA[/index.php?option=com_ninjarsssyndicator&feed_id=11&format=raw]]></item>
 </raiz>
